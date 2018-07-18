@@ -48,8 +48,6 @@ class Song
       values << "'#{send(col_name)}'" unless send(col_name).nil?
       binding.pry
     end
-
-
     values.join(", ")
   end
 
